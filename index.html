@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ru">
+        <title>War Against A Myth</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <style>
+            .body{
+                margin: 0;
+                padding: 0;
+                background-image: url('images/background.png');
+                font-family: 'Press Start 2P', cursive;
+                color: #0A2B3B;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 1000px;
+                height: 700px;
+                background-color: #58AF7B;
+                border-radius: 25px;
+                margin: auto;
+                margin-top: 100px;
+            }
+            h1{
+                font-size: 50px;
+            }
+            .text{
+                font-size: 20px;
+            }
+            input{
+                font-family: 'Press Start 2P', cursive;
+                height: 30px;
+                padding-left: 10px;
+            }
+            .btn {
+                display: inline-block;
+                background-color: #87D7A7;
+                color: #0A2B3B;
+                padding: 1rem 1.5rem; 
+                text-decoration: none; 
+                border-radius: 3px;
+                box-shadow: 5px 5px 18px 5px rgba(82,131,102,1);
+                margin-top: 15px;
+               }
+        </style>
+    </head>
+
+    <body class="body">
+        <div class="container">
+            <h1>War Against A Myth</h1>
+            <p class="text">Управление:</p>
+            <ul class="text">
+                <li>Налево - стрелка влево или клавиша A</li>
+                <li>Направо - стрелка вправо или клавиша D</li>
+                <li>Прыжок - стрелка вверх или клавиша W</li>
+                <li>Атака - клавиша Пробел</li>
+            </ul>
+            <div class="name">
+                <input type="text" placeholder="Имя игрока" class="text" id="name">
+                <input type="submit" value="Ввести имя" class="text">
+            </div>     
+              </style>
+             </head>
+             <body> 
+              <a href="game.html" class="btn">Начать игру</a>
+        </div>
+        
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
